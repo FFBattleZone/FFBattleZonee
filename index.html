@@ -102,10 +102,43 @@
 </head>
 <body>
 
- <!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Fix</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Toggler Color</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* থ্রি ডট আইকনের কালার পরিবর্তন */
+    .navbar-toggler-icon {
+      background-color: white; /* ডটের ব্যাকগ্রাউন্ড রঙ */
+    }
+
+    /* টগল বাটন হোভার করলে আইকনের রঙ পরিবর্তন */
+    .navbar-toggler:hover .navbar-toggler-icon {
+      background-color: yellow; /* হোভার কালার */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #343a40;">
   <div class="container">
-    <!-- Logo Added -->
+    <!-- Logo -->
     <a class="navbar-brand" href="#">
       <img src="https://i.ibb.co.com/j5RXMkt/create-a-great-logo-with-text-ff-battlezone-text-c-Ch0-Hlx-XSQKO4-Qk-Rh6-XBVdw-Jx-Pr-WZTy-Scu6-Y3ir.png" alt="FF BattleZone Logo" width="150" height="50">
     </a>
@@ -114,27 +147,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#tournaments">Tournaments</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
         <li class="nav-item">
-          <a class="btn btn-primary btn-sm" href="#">Login</a>
+          <a class="nav-link" href="https://www.example.com/home" target="_blank">Home</a>
         </li>
-        <!-- Updated Register button background color -->
         <li class="nav-item">
-          <a class="btn btn-warning btn-sm ms-2" href="#">Register</a>
+          <a class="btn btn-warning btn-sm ms-2" href="https://www.example.com/register" target="_blank">Register</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-  <!-- Notice Section -->
-  <div class="notice">
-    Notice: Register for the latest Free Fire tournaments and win exciting rewards!
-  </div>
-
-
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+  
    <!DOCTYPE html>
 <html lang="en">
 <head>
